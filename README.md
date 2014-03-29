@@ -54,8 +54,4 @@ should show you something like this:
 
 If you see this, just run:
 
-> kill -TERM 49688
-
-The `-TERM` is important, so the subsequent CouchDB process terminates
-correctly as well. If you leave that off, you have to find and kill
-that yourself.
+> kill 49688
