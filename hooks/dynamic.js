@@ -37,6 +37,10 @@ module.exports = function (/* hoodie */) {
          and https://github.com/spumko/hapi/blob/master/docs/Reference.md#reply-interface
          for details.
 
+         Example:
+           If your plugin is called `hoodie-plugin-test` then the URL for this hook is:
+           /_api/_plugins/test/_api. You can send all of GET/PUT/POST/DELETE/OPTIONS to it.
+
       parameters:
       - request: the hapi request object
       - reply: the hapi reply object
