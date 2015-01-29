@@ -33,8 +33,8 @@ module.exports = function (/* hoodie */) {
       description: This hook handles any request to
         `/_api/_plugins/{pluginname}/_api`. It gets the regular
          hapi request and reply objects as parameters.
-         See https://github.com/spumko/hapi/blob/master/docs/Reference.md#request-object
-         and https://github.com/spumko/hapi/blob/master/docs/Reference.md#reply-interface
+         See http://hapijs.com/api#request-object
+         and http://hapijs.com/api#reply-interface
          for details.
 
          Example:
