@@ -55,7 +55,7 @@ module.exports = function (/* hoodie */) {
     //   Use `hoodie` like you would in worker.js to access the
     //   main data store
 
-    //   return true
+    //   reply(true)
     // }
   };
 };
